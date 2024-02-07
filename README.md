@@ -1,4 +1,4 @@
-<h1 align="center">Saver Bot</h1
+<h1 align="center">Loader Bot</h1
 
 <p align="center">
   <a href="https://www.tiktok.com/">
