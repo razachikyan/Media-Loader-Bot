@@ -37,7 +37,7 @@
 
 ## Packages and Libraries
 
-- [telegram]([url](https://www.npmjs.com/package/telegram)https://www.npmjs.com/package/telegram)
+- [telegram](https://www.npmjs.com/package/telegram)
 - [node-telegram-bot-api](https://www.npmjs.com/package/node-telegram-bot-api)
 - [ytdl-core](https://www.npmjs.com/package/ytdl-core)
 - [@sasmeee/igdl](https://www.npmjs.com/package/@sasmeee/igdl)
