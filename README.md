@@ -1,4 +1,17 @@
-# Saver Bot
+<h1 align="center">Saver Bot</h1
+
+<p align="center">
+  <a href="https://www.tiktok.com/">
+    <img width="50" src="https://www.svgrepo.com/show/452114/tiktok.svg"/>
+  </a>
+  <a href="https://www.instagram.com/">
+    <img width="50" src="https://www.svgrepo.com/show/452229/instagram-1.svg" />
+  </a>
+  <a href="https://www.youtube.com/">
+    <img width="50" src="https://www.svgrepo.com/show/475700/youtube-color.svg" />
+  </a>
+</p>
+
 
 ## The bot uploads pictures and videos from instagram, tiktok and youtube and sends to the user - getting the post or video url
 
