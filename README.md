@@ -3,7 +3,7 @@
 <h3 align="center">Loader telegram bot wtitten in pure JavaScript</h3>
 
 <p align="center">
-  <a style="text-decoration: none" href="https://www.tiktok.com/">
+  <a href="https://www.tiktok.com/">
     <img width="50" src="https://www.svgrepo.com/show/452114/tiktok.svg"/>
   </a>
   <a href="https://www.instagram.com/">
