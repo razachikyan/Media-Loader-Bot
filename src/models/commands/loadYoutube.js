@@ -1,5 +1,5 @@
 import { handleYoutubeError } from "../utils/helpers/handleYoutubeError.js";
-import { downloadYoutube } from "../../../helpers/downloadYoutube.js";
+import { downloadYoutube } from "../utils/helpers/downloadYoutube.js";
 import { MESSAGES, STICKERS } from "../utils/constants.js";
 import { message } from "telegram/client/index.js";
 
