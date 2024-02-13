@@ -17,10 +17,21 @@ jobs:
       AWS_SERVER_KEY: ${{ secrets.AWS_SERVER_KEY }}
     
     steps:
+
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set up SSH
+        uses: webfactory/ssh-agent@v0.5.3
+        with:
+          ssh-private-key: ${{ secrets.AWS_SERVER_KEY }}
+          ssh-known-hosts: |
+            16.171.40.78 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC5xWsHcZeMg2wSoXFng2Ua0ObERI+r7FYgvEZQooyZ5jstrLBUuaevIL3hLYNc21yiC1o1zrUNZHDR5vDzFACH6giIgJBuuB7CBkVGXISF5qxOGgBYU0dj3mDd2XFuEE9ZIfq5F48Jgs2OwDiDyQyygZWYzh0kzODghyVnBJvenNrF/nDoi+/BeYHVc5o4BMEekrpI1gEDQafxl7wlD3Sy0sSEUfBcbEa5L+XXwFbL/qnc8stXXeM7smzZj6T6T42k2iink4YgxmeC7dNLjfeCl2fNk4HfBWWBRqvNRNJY+jgMeyp0OexW4YotrqpS4bmgQ0wJxjm5i2Lt4j+VOSN3 tgbot
+      
       - name: Build Project
         run: |
           echo $AWS_SERVER_KEY > key.pem
-          ssh -i key.pem ubuntu@16.171.40.78
+          ssh ubuntu@16.171.40.78
           sleep 4
           cd Media-Loader-Bot/
           git pull
