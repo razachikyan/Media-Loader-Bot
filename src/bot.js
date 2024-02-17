@@ -51,7 +51,7 @@ export class Bot {
 
   async _checkUserSubscribed() {
     try {
-      const { status } = this.getChatMember();
+      const { status } = await this.getChatMember();
       return status !== "left";
     } catch (err) {
       console.log(err.message);
